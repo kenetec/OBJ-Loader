@@ -46,82 +46,82 @@ In any case where the .obj file is in a different directory from the .mtl file, 
 *Format explanation:  The name following the bullet can be either a function or a table, anything tabbed underneath is returned in a table.*
 
 ### Models
-* Mesh
-	-- 		ObjModel 		Obj
-	-- 		MtlModel  Mtl
+* Mesh  
+-- 		ObjModel Obj  
+-- 		MtlModel  Mtl  
 
-* ObjModel()
-	-- 		table< Vertex > 				vertices
-	-- 		table< UV > 					uvs
-	-- 		table< Normal > 				normals
-	-- 		table< Face > 				faces
-	-- 		table< free_form > 			space_vertices
-	--		table< MeshObjectModel > 		objects
-	--		table< GroupModel > 			groups
-	-- 		table< MinimalObjModel > 		indicies
+* ObjModel()  
+-- table  < Vertex > vertices  
+	-- 		table < UV > 					uvs  
+	-- 		table < Normal > 				normals  
+	-- 		table < Face > 				faces  
+	-- 		table < free_form > 			space_vertices  
+	--		table < MeshObjectModel > 		objects  
+	--		table < GroupModel > 			groups  
+	-- 		table < MinimalObjModel > 		indicies  
 
-	-- 		string 						material_file_name
-	-- 		number 						poly_count
+	-- 		string 						material_file_name  
+	-- 		number 						poly_count  
 
-* MtlModel()
-	-- 		table 		{}
+* MtlModel()  
+	-- 		table 		{}  
 
-* MinimalObjModel()
-	-- 		table< Vertex > 				vertices
-	-- 		table< UV > 					uvs
-	-- 		table< Normal > 				normals
-	-- 		table< Face > 				faces
-	-- 		table< free_form > 			space_vertices
+* MinimalObjModel()  
+	-- 		table < Vertex > 				vertices  
+	-- 		table < UV > 					uvs  
+	-- 		table < Normal > 				normals  
+	-- 		table < Face > 				faces  
+	-- 		table < free_form > 			space_vertices  
 
-* MeshObjectModel(name, group_name)
-	-- 		table< boolean > 		vertices
-	-- 		table< boolean > 		uvs
-	-- 		table< boolean > 		normals
-	-- 		table< boolean > 		faces
-	-- 		table< boolean > 		space_vertices
+* MeshObjectModel(name, group_name)  
+	-- 		table < boolean > 		vertices  
+	-- 		table < boolean > 		uvs  
+	-- 		table < boolean > 		normals  
+	-- 		table < boolean > 		faces  
+	-- 		table < boolean > 		space_vertices  
 
-	-- 		string 				name
-	-- 		string 				group_name
+	-- 		string 				name  
+	-- 		string 				group_name  
 
-* GroupModel(name)
-	-- 		string 		name
+* GroupModel(name)  
+	-- 		string 		name  
 
 
 ### Objects
 
-* LineIndex(lineNumber, line, data)
-	-- 		number 		lineNumber
-	-- 		string 		line
-	-- 		any 		data
+* LineIndex(lineNumber, line, data)  
+	-- 		number 		lineNumber  
+	-- 		string 		line  
+	-- 		any 		data  
 
-* Vertex(x, y, z[, w])
-	-- 		number 		x
-	-- 		number 		y
-	-- 		number 		z
-	-- 		number 		w
+* Vertex(x, y, z[, w])  
+	-- 		number 		x  
+	-- 		number 		y  
+	-- 		number 		z  
+	-- 		number 		w  
 
-* Normal(x, y, z)
-	-- 		number 		x
-	-- 		number 		y
-	-- 		number 		z
+* Normal(x, y, z)  
+	-- 		number 		x  
+	-- 		number 		y  
+	-- 		number 		z  
 
-* Face([material_name])
-	-- 		table< FaceData > 		data
-	--		string 					material_name
+* Face([material_name])  
+	-- 		table < FaceData > 		data  
+	--		string 					material_name  
 
-* UV(u, v)
-	-- 		number 		u
-	-- 		number 		v
-	-- 		number 		w
+* UV(u, v)  
+	-- 		number 		u  
+	-- 		number 		v  
+	-- 		number 		w  
 
-* FaceData([vertex_index, uv_index, normal_index, vertex, uv, normal])
-	-- 		number 				vertex_index
-	-- 		number 				uv_index
-	-- 		number 				normal_index
+* FaceData([vertex_index, uv_index, normal_index, vertex, uv, normal])  
+	-- 		number 				vertex_index  
+	-- 		number 				uv_index  
+	-- 		number 				normal_index  
 
-	-- 		table< Vertex > 		vertex
-	-- 		table< UV > 			uv
-	-- 		table< Normal > 		normal
+	-- 		table < Vertex > 		vertex  
+	-- 		table < UV > 			uv  
+	-- 		table < Normal > 		normal  
 
 
 
