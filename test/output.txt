@@ -1,0 +1,454 @@
+	table Mtl
+		table Material
+			table Ni
+				string 1: 1.000000
+			table d
+				string 1: 1.000000
+			table illum
+				string 1: 2
+			table Ks
+				string 1: 0.500000
+				string 2: 0.500000
+				string 3: 0.500000
+			table Ns
+				string 1: 96.078431
+			table Ka
+				string 1: 0.000000
+				string 2: 0.000000
+				string 3: 0.000000
+			table Kd
+				string 1: 0.640000
+				string 2: 0.640000
+				string 3: 0.640000
+	table Obj
+		table space_vertices
+		table groups
+		table faces
+			table 1
+				table data
+					table 1
+						table normal
+							number y: -1
+							number x: 0
+							number z: 0
+						number normal_index: 1
+						string uv_index: 
+						number vertex_index: 1
+						table vertex
+							number y: -1
+							number x: 1
+							number z: -1
+							number w: 1
+					table 2
+						table normal
+							number y: -1
+							number x: 0
+							number z: 0
+						number normal_index: 1
+						string uv_index: 
+						number vertex_index: 2
+						table vertex
+							number y: -1
+							number x: 1
+							number z: 1
+							number w: 1
+					table 3
+						table normal
+							number y: -1
+							number x: 0
+							number z: 0
+						number normal_index: 1
+						string uv_index: 
+						number vertex_index: 3
+						table vertex
+							number y: -1
+							number x: -1
+							number z: 1
+							number w: 1
+					table 4
+						table normal
+							number y: -1
+							number x: 0
+							number z: 0
+						number normal_index: 1
+						string uv_index: 
+						number vertex_index: 4
+						table vertex
+							number y: -1
+							number x: -1
+							number z: -1
+							number w: 1
+				string material_name: Material
+			table 2
+				table data
+					table 1
+						table normal
+							number y: 1
+							number x: 0
+							number z: 0
+						number normal_index: 2
+						string uv_index: 
+						number vertex_index: 5
+						table vertex
+							number y: 1
+							number x: 1
+							number z: -0.999999
+							number w: 1
+					table 2
+						table normal
+							number y: 1
+							number x: 0
+							number z: 0
+						number normal_index: 2
+						string uv_index: 
+						number vertex_index: 8
+						table vertex
+							number y: 1
+							number x: -1
+							number z: -1
+							number w: 1
+					table 3
+						table normal
+							number y: 1
+							number x: 0
+							number z: 0
+						number normal_index: 2
+						string uv_index: 
+						number vertex_index: 7
+						table vertex
+							number y: 1
+							number x: -1
+							number z: 1
+							number w: 1
+					table 4
+						table normal
+							number y: 1
+							number x: 0
+							number z: 0
+						number normal_index: 2
+						string uv_index: 
+						number vertex_index: 6
+						table vertex
+							number y: 1
+							number x: 0.999999
+							number z: 1.000001
+							number w: 1
+				string material_name: Material
+			table 3
+				table data
+					table 1
+						table normal
+							number y: 0
+							number x: 1
+							number z: 0
+						number normal_index: 3
+						string uv_index: 
+						number vertex_index: 1
+						table vertex
+							number y: -1
+							number x: 1
+							number z: -1
+							number w: 1
+					table 2
+						table normal
+							number y: 0
+							number x: 1
+							number z: 0
+						number normal_index: 3
+						string uv_index: 
+						number vertex_index: 5
+						table vertex
+							number y: 1
+							number x: 1
+							number z: -0.999999
+							number w: 1
+					table 3
+						table normal
+							number y: 0
+							number x: 1
+							number z: 0
+						number normal_index: 3
+						string uv_index: 
+						number vertex_index: 6
+						table vertex
+							number y: 1
+							number x: 0.999999
+							number z: 1.000001
+							number w: 1
+					table 4
+						table normal
+							number y: 0
+							number x: 1
+							number z: 0
+						number normal_index: 3
+						string uv_index: 
+						number vertex_index: 2
+						table vertex
+							number y: -1
+							number x: 1
+							number z: 1
+							number w: 1
+				string material_name: Material
+			table 4
+				table data
+					table 1
+						table normal
+							number y: -0
+							number x: -0
+							number z: 1
+						number normal_index: 4
+						string uv_index: 
+						number vertex_index: 2
+						table vertex
+							number y: -1
+							number x: 1
+							number z: 1
+							number w: 1
+					table 2
+						table normal
+							number y: -0
+							number x: -0
+							number z: 1
+						number normal_index: 4
+						string uv_index: 
+						number vertex_index: 6
+						table vertex
+							number y: 1
+							number x: 0.999999
+							number z: 1.000001
+							number w: 1
+					table 3
+						table normal
+							number y: -0
+							number x: -0
+							number z: 1
+						number normal_index: 4
+						string uv_index: 
+						number vertex_index: 7
+						table vertex
+							number y: 1
+							number x: -1
+							number z: 1
+							number w: 1
+					table 4
+						table normal
+							number y: -0
+							number x: -0
+							number z: 1
+						number normal_index: 4
+						string uv_index: 
+						number vertex_index: 3
+						table vertex
+							number y: -1
+							number x: -1
+							number z: 1
+							number w: 1
+				string material_name: Material
+			table 5
+				table data
+					table 1
+						table normal
+							number y: -0
+							number x: -1
+							number z: -0
+						number normal_index: 5
+						string uv_index: 
+						number vertex_index: 3
+						table vertex
+							number y: -1
+							number x: -1
+							number z: 1
+							number w: 1
+					table 2
+						table normal
+							number y: -0
+							number x: -1
+							number z: -0
+						number normal_index: 5
+						string uv_index: 
+						number vertex_index: 7
+						table vertex
+							number y: 1
+							number x: -1
+							number z: 1
+							number w: 1
+					table 3
+						table normal
+							number y: -0
+							number x: -1
+							number z: -0
+						number normal_index: 5
+						string uv_index: 
+						number vertex_index: 8
+						table vertex
+							number y: 1
+							number x: -1
+							number z: -1
+							number w: 1
+					table 4
+						table normal
+							number y: -0
+							number x: -1
+							number z: -0
+						number normal_index: 5
+						string uv_index: 
+						number vertex_index: 4
+						table vertex
+							number y: -1
+							number x: -1
+							number z: -1
+							number w: 1
+				string material_name: Material
+			table 6
+				table data
+					table 1
+						table normal
+							number y: 0
+							number x: 0
+							number z: -1
+						number normal_index: 6
+						string uv_index: 
+						number vertex_index: 5
+						table vertex
+							number y: 1
+							number x: 1
+							number z: -0.999999
+							number w: 1
+					table 2
+						table normal
+							number y: 0
+							number x: 0
+							number z: -1
+						number normal_index: 6
+						string uv_index: 
+						number vertex_index: 1
+						table vertex
+							number y: -1
+							number x: 1
+							number z: -1
+							number w: 1
+					table 3
+						table normal
+							number y: 0
+							number x: 0
+							number z: -1
+						number normal_index: 6
+						string uv_index: 
+						number vertex_index: 4
+						table vertex
+							number y: -1
+							number x: -1
+							number z: -1
+							number w: 1
+					table 4
+						table normal
+							number y: 0
+							number x: 0
+							number z: -1
+						number normal_index: 6
+						string uv_index: 
+						number vertex_index: 8
+						table vertex
+							number y: 1
+							number x: -1
+							number z: -1
+							number w: 1
+				string material_name: Material
+		table uvs
+		table vertices
+			table 1
+				number y: -1
+				number x: 1
+				number z: -1
+				number w: 1
+			table 2
+				number y: -1
+				number x: 1
+				number z: 1
+				number w: 1
+			table 3
+				number y: -1
+				number x: -1
+				number z: 1
+				number w: 1
+			table 4
+				number y: -1
+				number x: -1
+				number z: -1
+				number w: 1
+			table 5
+				number y: 1
+				number x: 1
+				number z: -0.999999
+				number w: 1
+			table 6
+				number y: 1
+				number x: 0.999999
+				number z: 1.000001
+				number w: 1
+			table 7
+				number y: 1
+				number x: -1
+				number z: 1
+				number w: 1
+			table 8
+				number y: 1
+				number x: -1
+				number z: -1
+				number w: 1
+		number poly_count: 6
+		table normals
+			table 1
+				number y: -1
+				number x: 0
+				number z: 0
+			table 2
+				number y: 1
+				number x: 0
+				number z: 0
+			table 3
+				number y: 0
+				number x: 1
+				number z: 0
+			table 4
+				number y: -0
+				number x: -0
+				number z: 1
+			table 5
+				number y: -0
+				number x: -1
+				number z: -0
+			table 6
+				number y: 0
+				number x: 0
+				number z: -1
+		string material_file_name: cube.mtl
+		table objects
+			table 1
+				table faces
+					boolean 1: true
+					boolean 2: true
+					boolean 3: true
+					boolean 4: true
+					boolean 5: true
+					boolean 6: true
+				table uvs
+				table space_vertices
+				string group_name: 
+				table normals
+					boolean 1: true
+					boolean 2: true
+					boolean 3: true
+					boolean 4: true
+					boolean 5: true
+					boolean 6: true
+				string name: Cube
+				table vertices
+					boolean 1: true
+					boolean 2: true
+					boolean 3: true
+					boolean 4: true
+					boolean 5: true
+					boolean 6: true
+					boolean 7: true
+					boolean 8: true
