@@ -1,25 +1,23 @@
 OBJ.lua
 ======
 
-**OBJ.lua** is a *"bare-bones"* .obj loader. Designed to save the trouble of parsing the .obj & .mtl files and head straight into importing. 
+**OBJ.lua** is a *"bare-bones"* .obj loader. Designed to save the trouble of parsing the .obj & .mtl files and head straight into importing.  
 
 **OBJ.lua** only depends on Lua's standard io library. If io is not available, it is free to edit to intake strings as well.
 
----
-
 ## Functions
-This library comes equipped with 3 functions.
+This library comes equipped with 3 functions.  
 **functions are written in C prototype format, see Classes for reference on the return values*
 
 ```lua
 Mesh load(string file_path_to_obj_file[, table settings])
 ```
-```load()``` is the easiest function to use.  It will load the .obj file and its linked material file(.mtl) from ```file_path_to_obj_file```. ```settings``` is a table which holds options for how **OBJ.lua** will manipulate or find data.
+```load()``` is the easiest function to use.  It will load the .obj file and its linked material file(.mtl) from ```file_path_to_obj_file```. ```settings``` is a table which holds options for how **OBJ.lua** will manipulate or find data.  
 
 ```lua
 ObjModel loadObj(string file_path_to_obj_file[, table settings])
 ```
-```loadObj()``` is a simplified version of ```load()```, as it only loads the .obj file.
+```loadObj()``` is a simplified version of ```load()```, as it only loads the .obj file.  
 
 ```lua
 MtlModel loadMtl(string file_path_to_mtl_file)
@@ -38,8 +36,6 @@ Scale the mesh by whatever amount.
 
 ```mtl_dir = "directory of mtl file"``` 
 In any case where the .obj file is in a different directory from the .mtl file, set this value to the directory where the .mtl is.
-
----
 
 ## Classes
 
@@ -124,5 +120,5 @@ In any case where the .obj file is in a different directory from the .mtl file, 
 	-- 		table < Normal > 		normal  
 
 
-
+---  
 *** This library is under the MIT License. ***
