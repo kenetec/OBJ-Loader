@@ -22,7 +22,7 @@
 
 
 -- OBJ.lua
--- 	by Kendall Hester
+-- 	by unvanish
 
 	-- Notes --
 
